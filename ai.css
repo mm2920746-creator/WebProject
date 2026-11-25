@@ -1,0 +1,125 @@
+.AI_Container {
+    margin: 50px auto;
+    padding: 35px 18px 82px 18px;
+    display: flex;
+    max-width: 100%;
+    align-items: flex-start;
+    width: 886px;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px #000;
+    background-color: #ffffff;
+}
+
+section {
+    transition: transform 0.3s ease;
+    display: flex;
+    direction: rtl;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section header {
+    background-color: #26c154;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(43, 187, 173, 0.25);
+}
+
+.section1 {
+    background: linear-gradient(110deg, #2bbbad, #5e2b7a);
+    gap: 100px;
+    font-size: 25px;
+}
+
+.section1 h1 {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 40px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.AI_Img img {
+    width: 300px;
+    height: 300px;
+    height: auto;
+}
+
+.AI_gap {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    gap: 40px;
+}
+
+.AI_Span {
+    padding: 6px 18px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 3px 3px 0px #000;
+    font-size: 25px;
+}
+
+.AI_Span span {
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px #000;
+}
+
+.c_green {
+    background-color: #cce9d7;
+}
+
+.c_yellow {
+    background-color: #cce9d7;
+}
+
+.c_teal {
+    background-color: #cce9d7;
+}
+
+.c_orange {
+    background-color: #cce9d7;
+}
+
+.c_coral {
+    background-color: #cce9d7;
+}
+
+.c_blue {
+    background-color: #cce9d7;
+}
+
+.ai_table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.ai_table th,
+.ai_table td {
+    border: 2px solid #000;
+    padding: 8px 10px;
+}
+
+.ai_table th {
+    background-color: #9be8b8;
+}
+
+.AI_Footer {
+    border-top: 2px solid #000;
+    padding: 24px 15px 22px 15px;
+    text-align: center;
+}
+a:hover {
+    text-decoration: none;
+    color: #2645c1;
+}
